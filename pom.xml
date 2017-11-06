@@ -12,6 +12,7 @@
         <module>branch</module>
         <module>branchBern</module>
         <module>presenter-simple</module>
+        <module>presenter-uses</module>
     </modules>
 
 
