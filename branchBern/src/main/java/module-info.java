@@ -1,7 +1,7 @@
 /**
  * @author dominik.mozny
  */
-module presenter {
+module ch.adesso.module.branchBern {
     requires ch.adesso.module.branch;
-    requires ch.adesso.module.branchBern;
+    exports ch.adesso.branch.bern;
 }

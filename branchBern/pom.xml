@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>presenter</artifactId>
+    <artifactId>branchBern</artifactId>
 
     <build>
         <plugins>
@@ -24,17 +24,6 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>ch.adesso.dojo</groupId>
-            <artifactId>branch</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.adesso.dojo</groupId>
-            <artifactId>branchBern</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+
 
 </project>
