@@ -1,4 +1,4 @@
-package ch.adesso.pkg.presenter;
+package ch.adesso.pkg.presenter.simple;
 
 import ch.adesso.branch.bern.BranchBern;
 import ch.adesso.pkg.branch.Branch;
