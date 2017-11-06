@@ -1,15 +1,13 @@
-package ch.adesso.branch.bern;
+package ch.adesso.branch.zurich;
 
 import ch.adesso.pkg.branch.Branch;
 
 /**
  * @author dominik.mozny
  */
-public class BranchBern implements Branch {
-
-
+public class BranchZurich implements Branch {
     @Override
     public String getInfo() {
-        return "Branch Bern";
+        return "Branch Zurich";
     }
 }
