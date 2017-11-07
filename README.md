@@ -1,6 +1,6 @@
-# dojo-java9
+# dojo-java9 #
 
-##Prerequisites:
+##Prerequisites: ##
 Add File toolchains.xml to Maven local repository folger (eg: C:\Users\dominik.mozny\.m2) with this content and don't forget to modify path for 1.9 and 1.8):
 
 ```
