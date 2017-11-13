@@ -1,7 +1,7 @@
-package ch.adesso.pkg;
+package ch.adesso.pkg.without.modules;
 
-import ch.adesso.branch.zurich.BranchZurich;
 import ch.adesso.pkg.branch.Branch;
+import ch.adesso.pkg.branch.zurich.BranchZurich;
 
 /**
  * @author dominik.mozny

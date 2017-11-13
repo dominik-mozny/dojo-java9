@@ -1,4 +1,4 @@
-package ch.adesso.branch.zurich;
+package ch.adesso.pkg.branch.zurich;
 
 import ch.adesso.pkg.branch.Branch;
 

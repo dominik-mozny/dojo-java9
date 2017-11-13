@@ -1,4 +1,4 @@
-module ch.adesso.pkg.presenter.simple {
+module ch.adesso.module.presenterSimple {
     requires ch.adesso.module.branchBern;
 }
 

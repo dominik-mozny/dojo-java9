@@ -1,9 +1,9 @@
-package ch.adesso.dojo.reflection;
+package ch.adesso.pkg.use.reflection;
 
 import java.lang.reflect.Field;
 
-import ch.adesso.branch.bern.BranchBern;
 import ch.adesso.pkg.branch.Branch;
+import ch.adesso.pkg.branch.bern.BranchBern;
 
 /**
  * @author dominik.mozny

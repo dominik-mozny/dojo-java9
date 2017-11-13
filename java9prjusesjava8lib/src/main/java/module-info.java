@@ -1,7 +1,7 @@
 /**
  * @author dominik.mozny
  */
-module java9prjusesjava8lib {
+module ch.adesso.module.java9prjusesjava8lib {
     requires commons.collections4;
     requires joda.time;
 

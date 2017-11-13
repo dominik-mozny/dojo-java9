@@ -1,4 +1,4 @@
-package ch.adesso.dojo.usage.old.dependency;
+package ch.adesso.pkg.use.old.library;
 
 import org.apache.commons.collections4.Predicate;
 import org.joda.time.LocalTime;

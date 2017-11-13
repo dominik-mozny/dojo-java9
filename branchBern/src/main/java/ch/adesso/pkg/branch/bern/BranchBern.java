@@ -1,4 +1,4 @@
-package ch.adesso.branch.bern;
+package ch.adesso.pkg.branch.bern;
 
 import ch.adesso.pkg.branch.Branch;
 
