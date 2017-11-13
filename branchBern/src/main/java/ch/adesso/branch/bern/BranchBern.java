@@ -6,6 +6,7 @@ import ch.adesso.pkg.branch.Branch;
  * @author dominik.mozny
  */
 public class BranchBern implements Branch {
+    private int notVisibleField = 1234;
 
 
     @Override
