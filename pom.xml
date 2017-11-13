@@ -15,6 +15,7 @@
         <module>branchZurich</module>
         <module>branchBern</module>
         <module>branchBaseljava8</module>
+        <module>java9prjusesjava8lib</module>
     </modules>
 
     <build>
