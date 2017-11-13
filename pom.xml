@@ -16,6 +16,7 @@
         <module>branchBern</module>
         <module>branchBaseljava8</module>
         <module>java9prjusesjava8lib</module>
+        <module>java9withoutModules</module>
     </modules>
 
     <build>
