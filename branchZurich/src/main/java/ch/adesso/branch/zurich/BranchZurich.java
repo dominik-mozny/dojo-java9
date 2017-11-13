@@ -8,6 +8,6 @@ import ch.adesso.pkg.branch.Branch;
 public class BranchZurich implements Branch {
     @Override
     public String getInfo() {
-        return "Branch Zurich";
+        return "Branch Zurich, module: " + getClass().getModule().getName();
     }
 }

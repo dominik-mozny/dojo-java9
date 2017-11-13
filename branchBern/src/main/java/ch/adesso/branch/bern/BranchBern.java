@@ -10,6 +10,6 @@ public class BranchBern implements Branch {
 
     @Override
     public String getInfo() {
-        return "Branch Bern";
+        return "Branch Bern, module: " + getClass().getModule().getName();
     }
 }
