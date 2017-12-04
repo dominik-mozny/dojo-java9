@@ -1,8 +1,10 @@
 package ch.adesso.language.changes;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.CompletableFuture;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -18,6 +20,8 @@ public class LanguageChanges {
         streamIteratorWithDropWhileCondition();
         tryWithResourcesEffectivelyFinal();
         optionalIfPresentOrElse();
+        closeNotepadWithProcessHandle();
+        startProcessesAndWaitAsynchron();
     }
 
     public static void howToObtainListOfObjects() {
@@ -60,6 +64,18 @@ public class LanguageChanges {
                 presentValue -> System.out.println("This value was set: " + presentValue),
                 () -> System.out.println("No value set.")
         );
+    }
 
+    public static void closeNotepadWithProcessHandle() throws IOException {
+        ProcessHandle.allProcesses().filter(p -> p.info().command().isPresent() &&
+                p.info().command().get().equals("C:\\Windows\\System32\\notepad.exe")).findFirst().ifPresent(p -> p.destroy());
+    }
+
+    public static void startProcessesAndWaitAsynchron() throws IOException, InterruptedException {
+        Process process = new ProcessBuilder("C:\\Windows\\System32\\notepad.exe").start();
+        CompletableFuture<Process> processCompletableFuture = process.onExit();
+        CompletableFuture.anyOf(processCompletableFuture).thenRun(() -> System.out.println("Notepad application has been shutdown."));
+        System.out.println("End of process");
+        Thread.sleep(10000);
     }
 }
