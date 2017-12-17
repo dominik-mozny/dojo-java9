@@ -20,6 +20,7 @@ public class LanguageChanges {
         streamIteratorWithDropWhileCondition();
         tryWithResourcesEffectivelyFinal();
         optionalIfPresentOrElse();
+        printLast5DaysAsLocalDate()
         closeNotepadWithProcessHandle();
         startProcessesAndWaitAsynchron();
     }
@@ -64,6 +65,10 @@ public class LanguageChanges {
                 presentValue -> System.out.println("This value was set: " + presentValue),
                 () -> System.out.println("No value set.")
         );
+    }
+
+    public static void printLast5DaysAsLocalDate() {
+        LocalDate.now().minusDays(5).datesUntil(LocalDate.now()).forEach(date -> System.out.print(date + " "));
     }
 
     public static void closeNotepadWithProcessHandle() throws IOException {
