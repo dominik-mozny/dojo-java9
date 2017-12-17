@@ -18,6 +18,7 @@
         <module>java9prjusesjava8lib</module>
         <module>java9withoutModules</module>
         <module>java9reflection</module>
+        <module>java9LanguageChanges</module>
     </modules>
 
     <build>

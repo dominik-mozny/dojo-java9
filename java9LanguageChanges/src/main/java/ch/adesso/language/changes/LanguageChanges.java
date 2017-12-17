@@ -1,6 +1,7 @@
 package ch.adesso.language.changes;
 
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -20,7 +21,7 @@ public class LanguageChanges {
         streamIteratorWithDropWhileCondition();
         tryWithResourcesEffectivelyFinal();
         optionalIfPresentOrElse();
-        printLast5DaysAsLocalDate()
+        printLast5DaysAsLocalDate();
         closeNotepadWithProcessHandle();
         startProcessesAndWaitAsynchron();
     }
